@@ -1,0 +1,165 @@
+
+.works{
+    display: flex;
+    height: 60vh;
+    padding: 0rem 3rem;
+}
+
+.corner{
+  width: 100%;
+  /* background-color:#f5c32c; */
+}
+
+.w-right{
+  width: 100%;
+  position: relative;
+}
+
+.s-button{
+  margin-top: 3rem;
+}
+
+.w-mainCircle{
+
+    left: 9rem;
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 2rem;
+    background-color: #fff;
+    
+}
+
+
+
+.w-mainCircle>*{
+    position: absolute;
+    
+}
+
+.w-mainCircle > :nth-child(1){
+  top: -6rem;
+  left: 17rem;
+}
+.w-mainCircle > :nth-child(2){
+ 
+  left: -4rem;
+  top: 13rem;
+}
+.w-mainCircle > :nth-child(3){
+ 
+  left: 15rem;
+  top: 15rem;
+}
+.w-mainCircle > :nth-child(4){
+ 
+  left: 35rem;
+  top: 13rem;
+}
+
+.w-mainCircle > :nth-child(5){
+ 
+    left: 17rem;
+    top: 33rem;
+  }
+
+  .w-secCircle{
+
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;
+
+  }
+
+
+  .w-secCircle > img{
+    transform:scale(0.5);
+  }
+
+  .w-backCircle{
+    position: absolute;
+    height: 40rem;
+    width: 40rem;
+    border-radius: 100%;
+    z-index: -1;
+  }
+
+  .blueCircle{
+    background-color: #1949bb;
+    left: 18rem;
+    top: 0rem;
+  }
+
+  .yellowCircle{
+    background-color: #f5c32c;
+    left: 18rem;
+    top: 8rem;
+  }
+
+
+
+
+  @media screen and (max-width :480px){
+    .works{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    .w-right{
+      width: 100%;
+      height: 100%;
+      display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 10rem;
+    
+    }
+
+    .w-mainCircle{
+margin-right: 6rem;
+width: 35rem;
+    height: 35rem;
+    margin-bottom: 10rem;
+    }
+
+
+    .w-mainCircle > :nth-child(1){
+      top: -6rem;
+      left: 12rem;
+    }
+    .w-mainCircle > :nth-child(2){
+     
+      left: -3rem;
+      top: 13rem;
+    }
+    .w-mainCircle > :nth-child(3){
+     
+      left: 12rem;
+      top: 13rem;
+    }
+    .w-mainCircle > :nth-child(4){
+     
+      left: 28rem;
+      top: 13rem;
+    }
+    
+    .w-mainCircle > :nth-child(5){
+     
+        left: 12rem;
+        top: 28rem;
+      }
+    
+  }

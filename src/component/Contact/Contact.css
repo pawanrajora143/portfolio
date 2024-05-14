@@ -1,0 +1,112 @@
+
+
+
+.contact-form{
+    padding: 8rem 3rem 0 3rem;
+    display: flex;
+    height: 60vh;
+    margin-top: 4rem;
+}
+
+.c-right{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    flex: 1;
+}
+
+.c-right .button{
+   width: 10rem;
+   height: auto;
+   border: 0px solid var(--orange);
+   border-radius: 34px;
+   font-size: 1.6rem;
+}
+
+.c-right>form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+
+.c-right> .user{
+    width: 50rem;
+    height: 8rem;
+    padding: 1rem;
+    outline: none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+.c-right input{
+    width: 50rem;
+    height: 5rem;
+    padding: 1rem;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 1.6rem;
+    
+}
+
+textarea{
+    width: 50rem;
+    height: 10rem !important;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+    
+}
+
+
+
+
+@media screen and (max-width :480px){
+    .contact-form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+       
+    }
+
+    .c-right{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .c-right input{
+        width: 35rem;
+        height: 4rem;
+        padding: 1rem;
+        border: 2px solid var(--orange);
+        border-radius: 8px;
+        font-size: 1.6rem;
+        
+    }
+
+    .c-right textarea{
+        width: 35rem;
+        height: 4rem;
+        padding: 1rem;
+        border: 2px solid var(--orange);
+        border-radius: 8px;
+        font-size: 1.6rem;
+        
+    }
+
+ 
+      }
+
